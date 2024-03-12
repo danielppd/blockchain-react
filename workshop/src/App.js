@@ -1,8 +1,41 @@
+import React from 'react';
+import Input from './componente/Input';
+import Button from './componente/Button';
+
 function App() {
   return (
-    <div className="border-2 border-red-500">
-      <h1 className="text-bold text-blue-300">Hello, World!</h1>
-      <p className="text-sm text-white text-underline">Olá Inteli</p>
+    /* Container para o formulário como fundo semi transparente*/
+
+    <div className="flex min-h-screen w-full h-full items-center justify-center gap-3">
+      <div className="flex flex-col bg-red-600 w-5/6 justify-center items-center ">
+        <p>
+          Receba sua Proof-Of-Attendance NFT
+        </p>
+        <p>
+          Para receber sua NFT você precisa ter participado
+          do evento e ter uma carteira na rede Sepolia
+
+        </p>
+
+        <form className="flex flex-col mt-8 justify-center items-center">
+          <Input description="Esse nome será gravado no NFT para provar sua presença" 
+          label="Seu Nome" 
+          placeholder="Digite seu nome" 
+          type="text"/>
+
+          <Input description="Email para receber novidades" 
+          label="Email" 
+          placeholder="blockchain@inteli.com.br" 
+          type="text"/>
+
+          <Input description="Carteira para receber NFT" 
+          label="Wallet" 
+          placeholder="00.000...0000" 
+          type="text"
+        />
+        <Button type="submit" name="Gerar NFT"/>
+        </form>
+      </div>
     </div>
   );
 }
