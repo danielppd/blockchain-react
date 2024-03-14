@@ -1,6 +1,7 @@
 import React from 'react';
-import Input from './componente/Input';
-import Button from './componente/Button';
+import Input from './components/Input';
+import Button from './components/Button';
+import Checkbox from './components/Checkbox';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 
         </p>
 
-        <form className="flex flex-col mt-8 justify-center items-center">
+        <form className="flex flex-col mt-8">
           <Input description="Esse nome será gravado no NFT para provar sua presença" 
           label="Seu Nome" 
           placeholder="Digite seu nome" 
@@ -34,6 +35,8 @@ function App() {
           type="text"
         />
         <Button type="submit" name="Gerar NFT"/>
+        <Button type="submit" name="maselo"/>
+        <Checkbox veiculo1="Carro" veiculo2="Moto" veiculo3="Bicicleta"></Checkbox>
         </form>
       </div>
     </div>
