@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d42471c1.css",
-    "main.js": "/static/js/main.fd7efac6.js",
-    "static/js/453.2eab6565.chunk.js": "/static/js/453.2eab6565.chunk.js",
-    "static/media/background-ib.svg": "/static/media/background-ib.be11122288e47b108b7e.svg",
-    "static/media/logo.svg": "/static/media/logo.58965ca8ba472e17524a4ed7ecd21eaf.svg",
-    "static/media/wpp.svg": "/static/media/wpp.1cb83ae89153ec1df8bf5745388e2aaf.svg",
-    "index.html": "/index.html",
-    "static/media/github.svg": "/static/media/github.cd29f29a8de5aed862874d555c756d74.svg",
-    "main.d42471c1.css.map": "/static/css/main.d42471c1.css.map",
-    "main.fd7efac6.js.map": "/static/js/main.fd7efac6.js.map",
-    "453.2eab6565.chunk.js.map": "/static/js/453.2eab6565.chunk.js.map"
+    "main.css": "/blockchain-react/static/css/main.91651071.css",
+    "main.js": "/blockchain-react/static/js/main.b5562ae5.js",
+    "static/js/453.2eab6565.chunk.js": "/blockchain-react/static/js/453.2eab6565.chunk.js",
+    "static/media/background-ib.svg": "/blockchain-react/static/media/background-ib.be11122288e47b108b7e.svg",
+    "static/media/logo.svg": "/blockchain-react/static/media/logo.58965ca8ba472e17524a4ed7ecd21eaf.svg",
+    "static/media/wpp.svg": "/blockchain-react/static/media/wpp.1cb83ae89153ec1df8bf5745388e2aaf.svg",
+    "index.html": "/blockchain-react/index.html",
+    "static/media/github.svg": "/blockchain-react/static/media/github.cd29f29a8de5aed862874d555c756d74.svg",
+    "main.91651071.css.map": "/blockchain-react/static/css/main.91651071.css.map",
+    "main.b5562ae5.js.map": "/blockchain-react/static/js/main.b5562ae5.js.map",
+    "453.2eab6565.chunk.js.map": "/blockchain-react/static/js/453.2eab6565.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42471c1.css",
-    "static/js/main.fd7efac6.js"
+    "static/css/main.91651071.css",
+    "static/js/main.b5562ae5.js"
   ]
 }
