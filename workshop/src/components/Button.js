@@ -4,6 +4,6 @@ export default function Button(props){
             type={props.type}
         >
             {props.name}
-        </button>
+        </button> 
     )
 }
